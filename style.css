@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+
+@media (max-width: 600px) {
+  #quote-box {
+    background-color: black;
+    color:black;
+  }
+}
+
+#quote-box {
+  position: fixed;
+  width: min(450px, 100vw);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+#text {
+  text-align: center;
+}
+#author {
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+#new-quote {
+  margin: 0 20px 5px 0;
+  background-color: black;
+  border: solid;
+  color: white;
+}
+
+#new-quote:hover {
+  border: outset;
+}
+
+#new-quote:active {
+  border: inset;
+}
